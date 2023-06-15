@@ -32,7 +32,8 @@ function generateConfig () {
     twitter: "Twitter",
     vimeo: "Vimeo",
     youtube: "YouTube",
-    googleStorageApi: "Google Storage API"
+    googleStorageApi: "Google Storage API",
+    diamondy4: "Diamondy4_patches"
   } as const) satisfies cspTP<string>);
   // Append more third-party sites labels.
   Object.entries(websitesThirdParty).map(stringGroup => {

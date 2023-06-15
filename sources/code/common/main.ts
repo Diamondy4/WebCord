@@ -122,7 +122,7 @@ let startHidden = false;
  * 
  * **Might bring undesirable consequences on unsupported platforms**.
  */
-let screenShareAudio = false;
+let screenShareAudio = true;
 
 const userAgent: Partial<{
   replace: Parameters<typeof getUserAgent>[2];

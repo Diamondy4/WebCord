@@ -204,6 +204,11 @@ const builders: {base:CSPBuilder}&cspTP<CSPBuilder> = {
     "connect-src": "https://*.googlevideo.com",
     "media-src": "https://*.youtube.com",
     "frame-src": "https://www.youtube.com/embed/"
+  }),
+  diamondy4: new CSPBuilder({
+    "style-src": "https://raw.githubusercontent.com/",
+    "script-src": "https://unpkg.com",
+    "connect-src": "https://gist.githubusercontent.com",
   })
 };
 

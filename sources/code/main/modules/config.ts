@@ -99,7 +99,8 @@ const defaultAppConfig = Object.freeze({
         audius: true,
         algolia: true,
         reddit: true,
-        googleStorageApi: true
+        googleStorageApi: true,
+        diamondy4: true
       },
       currentInstance: {
         radio: 0 as 0|1
